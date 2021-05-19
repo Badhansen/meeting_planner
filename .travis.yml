@@ -8,4 +8,4 @@ services:
 before_script: pip install docker-compose
 
 scripts:
-    - docker-compose run app sh -c "python manage.py test"
+    - docker-compose run meeting_planner sh -c "python manage.py test"
