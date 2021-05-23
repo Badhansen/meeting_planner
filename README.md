@@ -1,3 +1,7 @@
+[![Build Status](https://travis-ci.com/Badhansen/meeting_planner.svg?branch=master)](https://travis-ci.com/github/Badhansen/meeting_planner)
+
+
+
 # meeting_planner
 A simple project for maintaining meetings.
 # Installation Procedure 
