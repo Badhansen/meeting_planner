@@ -8,7 +8,8 @@ class Room(models.Model):
     room_number = models.IntegerField(default=1)
 
     def __str__(self):
-        return f"{self.name}: room {self.room_number} on floor {self.floor_number}"
+        return f"{self.name}: room {self.room_number} " \
+               f"on floor {self.floor_number}"
 
 
 class Meeting(models.Model):
@@ -20,6 +21,3 @@ class Meeting(models.Model):
 
     def __str__(self):
         return f"{self.title} at {self.start_time} on {self.date}"
-
-
-

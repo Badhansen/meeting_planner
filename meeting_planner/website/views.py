@@ -7,8 +7,8 @@ from meeting.models import Meeting
 
 
 def welcome(request):
-    return render(request, "webside\welcome.html",
-                  {"num_meetings": Meeting.objects.count()})
+    return render(request, "webside/welcome.html",
+                  {"meeting": Meeting.objects.all()})
 
 
 def date(request):
